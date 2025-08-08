@@ -1,0 +1,10 @@
+.heading {
+    font-weight: bold;
+    text-align: center;
+}
+
+.recipe {
+    margin: 136px;
+    width: 200px;
+    box-sizing: border-box;
+}
