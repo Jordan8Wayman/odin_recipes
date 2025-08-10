@@ -1,10 +1,17 @@
 .heading {
+    display: flex;
     font-weight: bold;
-    text-align: center;
+    justify-content: center;
 }
 
-.recipe {
-    margin: 136px;
-    width: 200px;
-    box-sizing: border-box;
+.recipe-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: -35px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
 }
